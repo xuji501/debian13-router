@@ -1,13 +1,15 @@
 RouteWeb 网关发行版 V1.0.1
 起点火箭开发  2026-10-21
-构建时间: 2026-10-21 14:02:05
+构建时间: 2026-10-22 14:26:04
 
 产物                                                   字节  SHA256
-routeweb-gateway-1.0.1.tar.gz                    157024  dd9665c9485ff62a52e00f43b34dea198df0601c64a6e43205d6fcbecf25b55a
-routeweb-gateway_1.0.1_all.deb                   228766  f1da53f7f186057d25bf8cfc9166aac1696587f5f308f6dd03613ee4f4c88b38
+routeweb-gateway-1.0.1.tar.gz                    254437  8291c081f49bb19233e8738c2a3b206f2cfa3a3f82374cf6d71e54ea2ccd2d02
+routeweb-gateway_1.0.1_all.deb                   416102  c7a7421da6ccd3335b65327db2ff8f0688ae1628aa8bf61d9ab25c6bd81a040f
 
 安装:
   tar xzf routeweb-gateway-1.0.1.tar.gz && cd routeweb-gateway-1.0.1 && sudo ./install.sh --factory
   sudo dpkg -i routeweb-gateway_1.0.1_all.deb && sudo routeweb-install --factory
 
 ISO: 在 Debian 13 宿主机执行 routeweb-gateway-1.0.1/build_iso.sh
+
+随包文档: RouteWeb网关使用说明书.docx（V1.0.2 使用说明书, 含全新部署 / IPv6 全功能 / 配置备份与恢复）
